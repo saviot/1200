@@ -1,0 +1,6 @@
+.modal__wrapper-input .error-message {
+  all: unset;
+  color: red;
+  font-size: 14px;
+  opacity: 0;
+}

@@ -1,0 +1,13 @@
+.card__item {
+  line-height: 0px;
+  min-width: calc(100% - 40px);
+  position: relative;
+}
+
+.card__icon-trash_visible {
+  display: block !important;
+}
+
+.card__icon-trash_hidden {
+  display: none !important;
+}

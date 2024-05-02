@@ -1,0 +1,24 @@
+.modal__button {
+  all: unset;
+  height: 46px;
+  color: var(--white);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: var(--black);
+  cursor: pointer;
+  position: absolute;
+  width: calc(100% - 40px);
+  bottom: 31px;
+}
+
+.modal__button:hover {
+  opacity: 0.6;
+}
+
+.modal__button.disabled {
+  background-color: rgba(0, 0, 0, 0.262);
+  cursor: not-allowed;
+}

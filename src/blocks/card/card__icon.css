@@ -1,0 +1,23 @@
+.card__icon,
+.card__icon-x,
+.profile__icon {
+  all: unset;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.card__icon:hover {
+  opacity: 0.6;
+}
+
+.card__icon-trash {
+  all: unset;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.card__icon-trash:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,8 @@
+.page {
+    background-color: var(--black);
+    font-family: 'Inter', sans-serif;
+    max-width: 880px;
+    min-width: 320px;
+    margin: 0 auto;
+  }
+  

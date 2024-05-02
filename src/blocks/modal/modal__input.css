@@ -1,0 +1,24 @@
+.modal__input {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.262);
+  width: 100%;
+  height: 35px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.modal__input input {
+  all: unset;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--black);
+}
+
+.modal__input.error {
+  border-bottom: 2px solid red;
+  margin-bottom: 5px;
+}
